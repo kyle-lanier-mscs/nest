@@ -7,9 +7,11 @@ from pprint import pprint
 myNest = Nest(RunInstances)
 
 # print everything
-# pprint(myNest.items())
+pprint(myNest.items())
 
 # Get just the values for any concatenated key
 # that contains 'Arn'
 
 pprint(myNest['Arn'])
+
+pprint(myNest.Sns_TopicArn)
